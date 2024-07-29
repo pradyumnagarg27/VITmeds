@@ -8,7 +8,7 @@ if (!isset($_SESSION['log'])) {
 $reg = $_GET['reg'];
 $servername = "sql6.freesqldatabase.com";
 $username = "sql6701824";
-$pwd = "2WQAWP7vnq";
+$pwd = "";
 $dbname = "sql6701824";
 
 $conn = mysqli_connect($servername, $username, $pwd, $dbname);
